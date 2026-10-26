@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* A */
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.a {
+    padding: 48px;
+    background-color: white;
+}
+
+.a__block {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 48px;
+    align-items: center;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.a__card {
+    flex: 1 1 300px;
+}
+
+.a__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 300px;
+}
+
+/* B */
+
+.b {
+    padding: 48px 0;
+    background-color: #FFFFFF;
+}
+
+.b__block {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    max-width: 920px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.b__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    flex: 1 1 250px;
+}
+
+/* C */
+
+.c {
+    padding: 48px 0px;
+    background-color: #FFFFFF;
+}
+
+.c__block {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 32px;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.c__cards {
+    display: flex;
+    gap: 16px 0;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+
+.c__card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    flex: 1 1 300px;
+}
+
+.btn {
+    padding: 16px 32px;
+    background-color: #000;
+    color: white;
+    border-radius: 100px;
+    align-self: start;
+}
+
+/* D */
+
+.d {
+    padding: 48px 0;
+    background-color: #FFFFFF;
+}
+
+.d__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+
+    margin: 0 auto;
+    gap: 32px;
+    padding: 16px;
+}
+
+.d__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d__cards {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.d__card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+
+}
+
+.d__foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d__link {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* E */
+
+.e {
+    padding: 48 0;
+    background-color: #F8F8F8;
+}
+
+.e__block {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.e__content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+.e__texts {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    flex: wrap;
+}
+
+.e__text {
+    flex: 1 1 300;
+}
+
+
+/* D */
+
+.d{
+
+}
+
+.d__block{
+
+}
+.d__conetnt{
+
+}
+
+.d__texts{
+
+}
+
+.d__link{
+    
+}
