@@ -87,8 +87,8 @@ a {
 
 .c__cards {
     display: flex;
-    gap: 16px 0;
-    padding: 16px;
+    gap: 16px;
+    padding: 16px 0;
     flex-wrap: wrap;
 }
 
@@ -159,7 +159,7 @@ a {
 /* E */
 
 .e {
-    padding: 48 0;
+    padding: 48px 0;
     background-color: #F8F8F8;
 }
 
@@ -191,23 +191,104 @@ a {
 }
 
 
-/* D */
+/* f */
 
-.d{
-
+.f {
+    padding: 48px 0;
+    background-color: #F8F8F8;
 }
 
-.d__block{
-
-}
-.d__conetnt{
-
-}
-
-.d__texts{
-
+.f__block {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
 }
 
-.d__link{
-    
+.f__images {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.f__card {
+    flex: 1 1 300px;
+}
+
+.f__conetnt {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+
+.f__text {
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex: wrap;
+}
+
+.f__row-p {
+    flex: 1 1 300px;
+}
+
+.btn.f__row-p {
+    text-align: center;
+    align-self: center;
+}
+
+.btn {
+    padding: 16px 32px;
+    background-color: #000;
+    color: white;
+    border-radius: 100px;
+    align-self: start;
+}
+
+/* G */
+
+.g {
+    padding: 48px 0;
+    background-color: #F8F8F8;
+}
+
+.g__block {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.g__cards {
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.g__card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+    backgorund-color: #F0F0F0;
+    flex: 1 1 250;
+}
+
+.g__card-title {
+    display: flex;
+    justify-content: space-between;
+    align-item: center;
+}
+
+.g__foot {
+    display: flex;
+    justify-content: space-between;
+    align-item: center;
 }
