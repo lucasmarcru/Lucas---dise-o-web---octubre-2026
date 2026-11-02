@@ -236,7 +236,7 @@ a {
     flex: 1 1 300px;
 }
 
-.btn.f__row-p {
+.f__row-p {
     text-align: center;
     align-self: center;
 }
@@ -316,7 +316,7 @@ a {
 }
 
 .h__left {
-    flex: 1 1 300ppx;
+    flex: 1 1 300px;
 }
 
 .h__card {
