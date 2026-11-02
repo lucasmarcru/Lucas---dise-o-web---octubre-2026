@@ -186,7 +186,6 @@ p {
 .services{
     padding: var(--space-xl) var(--space-md);
     background-color: var(--color-bg);
-    gap: var(--space-lg);
 }
 
 .services__head{
@@ -213,3 +212,6 @@ p {
     flex-direction: column;
     gap: var(--space-xs);
 }
+
+/* Proyectos */
+
