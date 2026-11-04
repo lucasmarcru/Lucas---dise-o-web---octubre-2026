@@ -66,7 +66,7 @@ p {
     font-weight: 400;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -372,26 +372,25 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-.footer__foot-top img{
-    max-width: 75px;
-       
 
+}
+
+.footer__foot-top img {
+    max-width: 75px;
 }
 
 .footer__foot-brand {
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
-            
+
 
 }
 
 .footer__foot-nav {
     display: flex;
     gap: var(--space-lg);
-           
+
 
 }
 
