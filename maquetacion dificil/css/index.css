@@ -41,12 +41,10 @@ h5,
 h6,
 p,
 a,
+
 span {
     font-family: "Roboto", sans-serif;
 }
-
-
-
 
 h1 {
     font-size: 56px;
@@ -97,19 +95,21 @@ ul {
     display: inline-block;
     border: 1px solid transparent;
 
-    Selector specificity: (0, 1, 0) &:hover {
+    Selector-specificity: (0, 1, 0);
+
+    &:hover {
         background-color: transparent;
         color: black;
-        border: 1px solid black;
+        border-color: black;
     }
 
     &:active {
-        background-color: red;
+        background-color: var(--color-light-grey);
         transform: scale(0.9);
     }
 
-    transition: background-color 1s,color 1s, border-color 1s;
-    transition-timing-function: cubic-bezier(0, .99, 1, .01);
+    transition: background-color 1s, color 1s, border-color 1s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1.01);
     transform: 300ms;
 }
 
@@ -208,7 +208,8 @@ ul {
     padding: var(--space-xl) var(--space-md);
     background-color: var(--color-bg);
 }
-.services__block{
+
+.services__block {
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
@@ -233,11 +234,13 @@ ul {
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
-    &:nth-child(even){
+
+    &:nth-child(even) {
         background-color: black;
         color: white;
 
-        & .eyebrow, .small {
+        & .eyebrow,
+        .small {
             color: white;
         }
     }
