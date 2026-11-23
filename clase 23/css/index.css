@@ -1,0 +1,111 @@
+
+/* Animaciones */
+@keyframes move {
+    0% {
+        background-color: coral;
+        transform: translateY(0) rotate(0);
+        border-radius: 100%;
+    }
+
+    25% {
+        background-color: coral;
+        transform: translateY(15rem) rotate(0);
+        border-radius: 100%;
+    }
+
+    50% {
+        background-color: coral;
+        transform: translateY(-15rem) rotate(0);
+        border-radius: 10%;
+    }
+
+    75% {
+        background-color: azure;
+        transform: translateY(0) rotate(90deg);
+        border-radius: 10%;
+    }
+
+    100% {
+        background-color: coral;
+        transform: translateY(0) rotate(0);
+        border-radius: 100%;
+    }
+}
+
+@keyframes background {
+    0% {
+        background-color: azure;
+    }
+
+    25% {
+        background-color: azure;
+    }
+
+    50% {
+        background-color: azure;
+    }
+
+    75% {
+        background-color: coral;
+    }
+
+    100% {
+        background-color: azure;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: background;
+    animation-duration: 3s;
+
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 3s; /* si quieres que algun objeto se espere a otro */
+    animation-iteration-count:infinite; /* timepo que quieres que dure la animacion*/
+    animation-fill-mode: backwards; /* la animacion que quieres que haga cuanod termnina la animacion*/
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    animation-name: move;
+    animation-duration: 3s;
+
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 3s; /* si quieres que algun objeto se espere a otro */
+    animation-iteration-count: infinite; /* timepo que quieres que dure la animacion*/
+    animation-fill-mode: backwards; /* la animacion que quieres que haga cuanod termnina la animacion*/
+}
+
+
+h1::before {
+    content: "Hola";
+    color: black;
+    height: 1px;
+    width: 100px;
+    display: inline-block;
+}
+h1::after {
+    content: "¿Qué tal?";
+}
+
+span.precio::after {
+content
+}
+
+
+/* animation timeline - animaciones en scroll */
+
+
