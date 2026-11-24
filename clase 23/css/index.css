@@ -1,5 +1,13 @@
-
 /* Animaciones */
+
+/* frame = fotograma, es decir, un instante concreto de una animación. */
+/* animation-timing-function = como se desarrolla esa transición */
+/* animation-delay = si quieres que algún elemento se espere a otro */
+/* animation-iteration-count = timepo que quieres que dure la animacion*/
+/* animation-fill-mode = la animacion que quieres que haga cuando termnina la animación */
+/* animation-direction = manipulas donde quieres que vaya la animación */
+/* animation timeline - animaciones en scroll */
+
 @keyframes move {
     0% {
         background-color: coral;
@@ -67,45 +75,37 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     animation-name: background;
     animation-duration: 3s;
-
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-delay: 3s; /* si quieres que algun objeto se espere a otro */
-    animation-iteration-count:infinite; /* timepo que quieres que dure la animacion*/
-    animation-fill-mode: backwards; /* la animacion que quieres que haga cuanod termnina la animacion*/
+    animation-iteration-count: infinite;
 }
 
 div {
     height: 100px;
     width: 100px;
     background-color: coral;
+    
     animation-name: move;
     animation-duration: 3s;
-
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-delay: 3s; /* si quieres que algun objeto se espere a otro */
-    animation-iteration-count: infinite; /* timepo que quieres que dure la animacion*/
-    animation-fill-mode: backwards; /* la animacion que quieres que haga cuanod termnina la animacion*/
+    animation-iteration-count: infinite;
 }
 
 
-h1::before {
-    content: "Hola";
+h1:hover::before {
+    content: "";
     color: black;
     height: 1px;
     width: 100px;
     display: inline-block;
 }
+
 h1::after {
     content: "¿Qué tal?";
 }
 
 span.precio::after {
-content
+    content: "€";
 }
-
-
-/* animation timeline - animaciones en scroll */
-
-
